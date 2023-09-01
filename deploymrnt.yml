@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argocd-deployment
+spec:
+  replicas: 1 # You can adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: argocd
+  template:
+    metadata:
+      labels:
+        app: argocd
+    spec:
+      containers:
+        - name: argocd-container
+          image: noorulqumar80/cicdargocd:13
+          ports:
+            - containerPort: 8080 # Replace with the port your application listens on
