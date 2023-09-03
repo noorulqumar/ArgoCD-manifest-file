@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: argocd-container
-          image: noorulqumar80/cicdargocd:33
+          image: noorulqumar80/cicdargocd:34
           ports:
             - containerPort: 8080 # Replace with the port your application listens on
