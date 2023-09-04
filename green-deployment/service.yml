@@ -8,5 +8,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80 # Expose port 80 on the service
-      targetPort: 8080 # Forward traffic to the container's port
+      targetPort: 80 # Forward traffic to the container's port
   type: LoadBalancer # Use LoadBalancer for cloud providers that support it
