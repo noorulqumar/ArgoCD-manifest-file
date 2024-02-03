@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 80 # Expose port 80 on the service
       targetPort: 80 # Forward traffic to the container's port
-  type: LoadBalancer # Use LoadBalancer for cloud providers that support it
+  type: NodePort # Use LoadBalancer for cloud providers that support it
