@@ -6,7 +6,6 @@ metadata:
 spec:
   selector:
     app: argocd
-    env: dev
   ports:
     - protocol: TCP
       port: 80 # Expose port 80 on the service
