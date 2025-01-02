@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: argocd-container
-          image: 010526243714.dkr.ecr.eu-west-2.amazonaws.com/learn:49
+          image: 010526243714.dkr.ecr.eu-west-2.amazonaws.com/learn:50
           ports:
             - containerPort: 80 # Replace with the port your application listens on
